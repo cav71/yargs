@@ -1,0 +1,23 @@
+package:
+  name: yargs
+  version: 0.0.1
+
+source:
+  path: ..
+
+requirements:
+  build:
+    - python
+    - pyyaml
+
+  run:
+    - python
+
+about:
+  home: no-home
+  license: BSD
+  license_file: LICENSE
+
+build:
+  entry_points:
+    - yargs.example = yargs.example:main
