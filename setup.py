@@ -1,4 +1,5 @@
-from setuptools import setup
+from setup2.core import setup
+
 import yaml
 import os.path
 
